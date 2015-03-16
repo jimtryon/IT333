@@ -1,0 +1,53 @@
+Binary Tree
+
+A binary tree is a finite set of elements that is either empty or consists of…
+- a single element called the root
+
+- two subtrees, called left and right
+
+Note: This definition is recursive!
+
+Terminology
+B = left child of A
+
+C = right child of A
+
+A = parent of B and C
+
+
+Level - the number of branches on the path from the root
+
+Depth - the maximum level of any leaf (one less than the height)
+
+Height - the number of nodes on the longest path 
+
+
+Preorder (left)
+1. Visit the root
+2. Traverse the left subtree
+3. Traverse the right subtree
+ABDC
+
+Inorder (bottom)
+1. Traverse the left subtree
+2. Visit the root
+3. Traverse the right subtree
+BDAC
+
+Postorder (right)
+1. Traverse the left subtree
+2. Traverse the right subtree
+3. Visit the root
+
+Balanced tree
+
+A binary tree in which the height of the left subtree and right subtree differ by no more than one 
+0log2(n)
+
+
+
+
+
+
+
+
